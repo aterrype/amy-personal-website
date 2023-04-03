@@ -71,19 +71,30 @@ const utmParameters = `?utm_source=starter&utm_medium=start-page&utm_campaign=de
 
 const IndexPage = () => (
   <Layout>
-    <div className={styles.textCenter}>
+    <div className={styles.wrapper}>
       <StaticImage
-        src="../images/example.png"
+        src="../images/amy_terry_penak.jpg"
         loading="eager"
-        width={64}
+        width={300}
         quality={95}
         formats={["auto", "webp", "avif"]}
-        alt=""
-        style={{ marginBottom: `var(--space-3)` }}
+        alt="Amy Terry-Penak"
+        style={{
+          marginBottom: `var(--space-3)`,
+          display: "inline-block",
+        }}
       />
-      <h1>
-        Welcome to <b>Gatsby!</b>
-      </h1>
+      <div className={styles.header}>
+        <h1 className={styles.heading}>
+          Amy Terry-Penak
+        </h1>
+        <h2 className={styles.heading}>
+          Software Developer
+        </h2>
+        <h3 className={styles.heading}>
+          React &middot; Ruby on Rails &middot; Elixir
+        </h3>
+      </div>
       <p className={styles.intro}>
         <b>Example pages:</b>{" "}
         {samplePageLinks.map((link, i) => (
@@ -92,8 +103,6 @@ const IndexPage = () => (
             {i !== samplePageLinks.length - 1 && <> · </>}
           </React.Fragment>
         ))}
-        <br />
-        Edit <code>src/pages/index.js</code> to update this page.
       </p>
     </div>
     <ul className={styles.list}>

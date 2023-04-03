@@ -44,11 +44,23 @@
   margin-top: var(--space-1);
 }
 
-.textCenter {
+.header {
+  display: inline-grid;
+  margin-left: 10%;
+}
+
+.heading {
+  display: inline;
   text-align: center;
 }
 
 .intro {
   max-width: none;
+  text-align: center;
   line-height: var(--line-height-loose);
+}
+
+.wrapper {
+  width: 100%;
+  overflow: hidden;
 }
