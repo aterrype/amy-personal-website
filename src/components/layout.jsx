@@ -5,14 +5,14 @@
  * See: https://www.gatsbyjs.com/docs/how-to/querying-data/use-static-query/
  */
 
-import * as React from "react"
-import { useStaticQuery, graphql } from "gatsby"
+import * as React from 'react';
+import { useStaticQuery, graphql } from 'gatsby';
 
-import Header from "./header"
-import Footer from "./footer"
-import "./layout.css"
+import Header from './header';
+import Footer from './footer';
+import './layout.css';
 
-const Layout = ({ children }) => {
+function Layout({ children }) {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -21,17 +21,17 @@ const Layout = ({ children }) => {
         }
       }
     }
-  `)
+  `);
 
   return (
-    <div style={{backgroundColor: "#0492c2"}}>
-      <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
+    <div style={{ backgroundColor: '#0492c2' }}>
+      <Header siteTitle={data.site.siteMetadata?.title || 'Title'} />
       <div
         style={{
-          margin: `0 auto`,
-          maxWidth: `var(--size-content)`,
-          padding: `var(--size-gutter)`,
-          height: `100%`,
+          margin: '0 auto',
+          maxWidth: 'var(--size-content)',
+          padding: 'var(--size-gutter)',
+          height: '100%',
           backgroundColor: '#cad7d9',
         }}
       >
@@ -39,7 +39,7 @@ const Layout = ({ children }) => {
       </div>
       <Footer />
     </div>
-  )
+  );
 }
 
-export default Layout
+export default Layout;
