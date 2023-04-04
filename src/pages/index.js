@@ -96,34 +96,23 @@ const IndexPage = () => (
         </h3>
       </div>
       <p className={styles.intro}>
-        <b>Example pages:</b>{" "}
-        {samplePageLinks.map((link, i) => (
-          <React.Fragment key={link.url}>
-            <Link to={link.url}>{link.text}</Link>
-            {i !== samplePageLinks.length - 1 && <> · </>}
-          </React.Fragment>
-        ))}
+        Welcome! I'm a software developer who primarily works in Ruby on Rails on the backend, React on the frontend,
+        and Elixir when I want to do functional programming. I also do hybrid mobile development with React&nbsp;Native and Ionic.
+        Over the course of my career, I've worked with a lot more languages than that; I've done projects in Angular,
+        vanilla JavaScript, NodeJS, C#, Visual Basic, Haskell, and Python. I even worked on a&nbsp;
+        <a href="https://en.wikipedia.org/wiki/MUMPS">MUMPS</a> database for a while &ndash; seriously, I'll use any language
+        if it's called for. Have a look at my <Link to="/resume">resume</Link> if you want to learn more about my career.
+      </p>
+      <p className={styles.intro}>
+        When I'm not programming, I'm probably having fun with one of my many hobbies. I collect license plates, and&nbsp;
+        <Link to="/license-plates">a section of this website</Link> is dedicated to my collection. I also enjoy travel,
+        and one of my goals in life is to visit all of the 3,100+ counties in the United States.
+      </p>
+      <p className={styles.intro}>
+        If you're interested in my thoughts on programming, my hobby-related adventures, or just what I've been up to,
+        feel free to take a look at my <Link to="/blog">blog</Link>.
       </p>
     </div>
-    <ul className={styles.list}>
-      {links.map(link => (
-        <li key={link.url} className={styles.listItem}>
-          <a
-            className={styles.listItemLink}
-            href={`${link.url}${utmParameters}`}
-          >
-            {link.text} ↗
-          </a>
-          <p className={styles.listItemDescription}>{link.description}</p>
-        </li>
-      ))}
-    </ul>
-    {moreLinks.map((link, i) => (
-      <React.Fragment key={link.url}>
-        <a href={`${link.url}${utmParameters}`}>{link.text}</a>
-        {i !== moreLinks.length - 1 && <> · </>}
-      </React.Fragment>
-    ))}
   </Layout>
 )
 

@@ -6,6 +6,7 @@ const Footer = () => (
       marginTop: `var(--space-5)`,
       padding: `var(--space-4) var(--size-gutter)`,
       fontSize: `var(--font-sm)`,
+      backgroundColor: '#f6d59f',
     }}
   >
     © {new Date().getFullYear()} unless otherwise stated &middot; Built with
