@@ -8,7 +8,7 @@ const Header = ({ siteTitle }) => (
       padding: `var(--space-4) var(--size-gutter)`,
       display: `flex`,
       alignItems: `center`,
-      justifyContent: `space-between`,
+      justifyContent: `flex-start`,
       backgroundColor: '#f6d59f',
     }}
   >
@@ -17,9 +17,40 @@ const Header = ({ siteTitle }) => (
       style={{
         fontSize: `var(--font-sm)`,
         textDecoration: `none`,
+        padding: `0 5px`,
       }}
     >
       {siteTitle}
+    </Link>
+    <Link
+      to="/resume"
+      style={{
+        fontSize: `var(--font-sm)`,
+        textDecoration: `none`,
+        padding: `0 5px`,
+      }}
+    >
+      Resume
+    </Link>
+    <Link
+      to="/license-plates"
+      style={{
+        fontSize: `var(--font-sm)`,
+        textDecoration: `none`,
+        padding: `0 5px`,
+      }}
+    >
+      License Plates
+    </Link>
+    <Link
+      to="/blog"
+      style={{
+        fontSize: `var(--font-sm)`,
+        textDecoration: `none`,
+        padding: `0 5px`,
+      }}
+    >
+      Blog
     </Link>
   </header>
 )
