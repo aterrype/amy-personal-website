@@ -43,7 +43,7 @@ function IndexPage() {
           <a href="https://en.wikipedia.org/wiki/MUMPS">MUMPS</a>
           {' '}
           database for a while &ndash; seriously, I&apos;ll use any language
-          if it&apos;s called for. Have a look at my
+          if it&apos;s called for. Have a look at my&nbsp;
           <Link to="/resume">resume</Link>
           {' '}
           if you want to learn more about my career.
