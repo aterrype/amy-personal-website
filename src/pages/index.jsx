@@ -17,10 +17,7 @@ function IndexPage() {
           quality={95}
           formats={['auto', 'webp', 'avif']}
           alt="Amy Terry-Penak"
-          style={{
-            marginBottom: 'var(--space-3)',
-            display: 'inline-block',
-          }}
+          className={styles.headerImage}
         />
         <div className={styles.header}>
           <h1 className={styles.heading}>

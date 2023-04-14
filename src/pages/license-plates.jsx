@@ -17,14 +17,11 @@ function ResumePage() {
           quality={95}
           formats={['auto', 'webp', 'avif']}
           alt="Amy Terry-Penak"
-          style={{
-            marginBottom: 'var(--space-3)',
-            display: 'inline-block',
-          }}
+          className={styles.image}
         />
 
       </div>
-      <p>
+      <p className={styles.bodyText}>
         When I&apos;m not at work, I like to spend my time collecting license plates.
         As a child, I always tried to spot as many different state license plates as I could on
         family vacations. After hearing about this, my neighbor at the time gave me one of his
@@ -33,7 +30,7 @@ function ResumePage() {
         money for it, partly because my parents wanted me to get the old license plates out of
         their house.)
       </p>
-      <p>
+      <p className={styles.bodyText}>
         Why license plates? There are a number of reasons: I like to travel, I like history, and
         I like to pay attention to everyday things that not everyone takes a second look at. I
         collect many different types of license plates, but my main areas of focus are my home

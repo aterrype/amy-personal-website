@@ -1,6 +1,8 @@
 import * as React from 'react';
 import { Link } from 'gatsby';
 
+import './header.css';
+
 function Header({ siteTitle }) {
   return (
     <header
@@ -15,41 +17,25 @@ function Header({ siteTitle }) {
     >
       <Link
         to="/"
-        style={{
-          fontSize: 'var(--font-sm)',
-          textDecoration: 'none',
-          padding: '0 5px',
-        }}
+        className="menuLink"
       >
         {siteTitle}
       </Link>
       <Link
         to="/resume"
-        style={{
-          fontSize: 'var(--font-sm)',
-          textDecoration: 'none',
-          padding: '0 5px',
-        }}
+        className="menuLink"
       >
         Resume
       </Link>
       <Link
         to="/license-plates"
-        style={{
-          fontSize: 'var(--font-sm)',
-          textDecoration: 'none',
-          padding: '0 5px',
-        }}
+        className="menuLink"
       >
         License Plates
       </Link>
       <Link
         to="/blog"
-        style={{
-          fontSize: 'var(--font-sm)',
-          textDecoration: 'none',
-          padding: '0 5px',
-        }}
+        className="menuLink"
       >
         Blog
       </Link>

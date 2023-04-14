@@ -222,3 +222,15 @@ pre tt:before,
 pre tt:after {
   content: none;
 }
+
+.background {
+  background-color: #0492c2;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: var(--size-content);
+  padding: var(--size-gutter);
+  height: 100%;
+  background-color: #cad7d9;
+}

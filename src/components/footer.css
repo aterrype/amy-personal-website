@@ -1,4 +1,21 @@
+.footer {
+  margin: var(--space-5) auto;
+  padding: var(--space-4) var(--space-1) var(--size-gutter);
+  font-size: var(--font-sm);
+  background-color: #f6d59f;
+  width: 100%;
+  text-align: center;
+}
+
+.socialContainer {
+  padding-top: 5px;
+  align-items: center;
+}
+
 .social {
-  float: right;
-  padding: 0 10px;
+  padding: 5px 10px;
+}
+
+.disclaimer {
+  display: block;
 }
