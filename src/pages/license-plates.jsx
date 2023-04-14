@@ -5,7 +5,7 @@ import Layout from '../components/layout';
 import Seo from '../components/seo';
 import * as styles from '../components/license-plates.module.css';
 
-function ResumePage() {
+function LicensePlatesPage() {
   return (
     <Layout>
       <h1 className={styles.heading}>Amy&apos;s License Plates</h1>
@@ -41,7 +41,7 @@ function ResumePage() {
 }
 
 export function Head() {
-  return <Seo title="Resume" />;
+  return <Seo title="License Plates" />;
 }
 
-export default ResumePage;
+export default LicensePlatesPage;
