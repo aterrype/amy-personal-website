@@ -1,0 +1,6 @@
+.menuLink {
+  font-size: var(--font-sm);
+  text-align: center;
+  text-decoration: none;
+  padding: 0 5px;
+}

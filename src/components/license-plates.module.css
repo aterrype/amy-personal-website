@@ -5,3 +5,14 @@
 .imageWrapper {
   text-align: center;
 }
+
+.image {
+  margin-bottom: var(--space-3);
+  display: inline-block;
+}
+
+.bodyText {
+  margin: auto;
+  padding: 5px 0;
+  text-align: center;
+}

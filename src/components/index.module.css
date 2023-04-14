@@ -44,6 +44,11 @@
   margin-top: var(--space-1);
 }
 
+.headerImage {
+  margin-bottom: var(--space-3);
+  display: inline-block;
+}
+
 .header {
   display: inline-grid;
   margin-left: 10%;
