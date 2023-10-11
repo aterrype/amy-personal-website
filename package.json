@@ -8,7 +8,7 @@
     "@emotion/react": "^11.10.6",
     "gatsby": "^5.8.1",
     "gatsby-plugin-image": "^3.8.0",
-    "gatsby-plugin-manifest": "^5.8.0",
+    "gatsby-plugin-manifest": "^5.12.1",
     "gatsby-plugin-netlify": "^5.1.0",
     "gatsby-plugin-sharp": "^5.8.1",
     "gatsby-remark-images": "^7.8.0",
