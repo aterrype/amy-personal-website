@@ -5,7 +5,7 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
-    "@emotion/react": "^11.11.1",
+    "@emotion/react": "^11.11.3",
     "@netlify/functions": "^2.4.1",
     "gatsby": "^5.12.12",
     "gatsby-plugin-image": "^3.13.0",
