@@ -7,7 +7,7 @@
   "dependencies": {
     "@emotion/react": "^11.11.3",
     "@netlify/functions": "^2.4.1",
-    "gatsby": "^5.12.12",
+    "gatsby": "^5.13.1",
     "gatsby-plugin-image": "^3.13.0",
     "gatsby-plugin-manifest": "^5.13.0",
     "gatsby-plugin-netlify": "^5.1.1",
