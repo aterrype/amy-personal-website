@@ -6,7 +6,7 @@
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
     "@emotion/react": "^11.11.3",
-    "@netlify/functions": "^2.4.1",
+    "@netlify/functions": "^2.5.1",
     "gatsby": "^5.13.1",
     "gatsby-plugin-image": "^3.13.0",
     "gatsby-plugin-manifest": "^5.13.0",
